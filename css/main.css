@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+nav {
+    background-color: palegreen;
+    width: 100%;
+    display: block;
+    margin: 0 auto 0 auto;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    line-height: 1;
+}
+
+nav ul {
+    list-style-type: none;
+}
+nav ul li a, nav ul li a:hover {
+    float: right;
+    text-decoration: none;
+    text-underline: none;
+    padding: 20px 20px 20px 20px;
+    background-color: palegreen;
+    margin: 0;
+    color: black;
+    width: 100px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+nav ul li a {
+    transition: 350ms;
+}
+
+nav ul li a:hover {
+    transition: 500ms;
+    background-color: seagreen;
+    color: white;
+}
+#li-left {
+    float: left;
+    font-family: 'Indie Flower', cursive;
+    font-style: italic;
+    font-size: 40px;
+    margin: 7px 0 0 20px;
+    text-align: center;
+    padding: 4px 4px 4px 4px;
+    color: black;
+}
+#babeko {
+    padding: 20px 0 20px 0;
+    margin: 14% auto 0 auto;
+    width: 100%;
+    background-color: rgba(152,251,152,0.2);
+}
+
+#babeko p {
+    font-family: 'Indie Flower', cursive;
+    font-size: 40px;
+    text-align: center;
+    width: 50%;
+    display: block;
+    margin: 20px auto 20px auto;
+}
+#about {
+    padding: 80px 20px 20px 20px;
+    margin: 0 auto 0 auto;
+    text-align: center;
+}
+#about img{
+    margin-top: 70px;
+}
+#img_about{
+    padding-top:40px;
+}
+#top{
+    position:absolute;
+    top:0;
+}
+#info {
+    padding: 80px 20px 20px 20px;
+    margin: 50px auto 0 10%;
+}
+#info ol {
+     font-family: 'Raleway', sans-serif;
+     font-weight: bold;
+     font-size: 20px;
+     display: block;
+     list-style-type: decimal;
+     list-style-position: inside;
+ }
+
+#info ol li{
+    padding-top: 20px;
+}
+#info p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    display: block;
+}
+#info img {
+    float: right;
+}
+
+
+#contact {
+    padding: 20px 0 0 0;
+    margin: 0 auto 0 auto;
+    text-align: center;
+    color: white;
+}
+
+#almere{
+    background-image: url('../img/skyline_almere__1_.jpg');
+    margin-top: 200px;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#about h1, #info h1, #contact h1 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 60px;
+    font-weight: 400;
+}
+
+/* Fixes account and cart page titles. */
+.card-title, #qrTitle {
+    font-family: 'Raleway', sans-serif;
+    font-size: 3em;
+    font-weight: 300;
+}
+
+p, label, input, a, .alert {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+#about p, #contact p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    width: 50%;
+    display: block;
+    margin: 20px auto 20px auto;
+}
+
+label {
+    height: 25px;
+    display: flex;
+    align-items: center;
+    margin: 1px 10px 10px 0;
+}
+
+.wrapper {
+    margin: 20px auto 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.login {
+    display: flex;
+    margin-top: 68px;
+}
+
+#email, #password {
+    padding: 5px 10px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+/*login stuff*/
+#submit {
+    border: 0;
+    background-color: #F8F9Fa;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 4px;
+    margin-left: 105px;
+}
+
+#submit:hover {
+    background-color: #E2E6EA;
+}
+/*other pages data*/
+.labels, .inputs {
+    display: flex;
+    flex-direction: column;
+}
+iframe{
+    width:70vw;
+    height:50vh;
+    display: block;
+    margin:50px auto 100px auto;
+}
+#barcode {
+    margin: 100px;
+    top: 200px;
+}
+.home_img {
+    width: 100%;
+    height: 100%;
+    max-width: 650px;
+    object-fit: cover;
+}

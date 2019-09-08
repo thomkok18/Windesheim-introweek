@@ -1,0 +1,12 @@
+.wrapper {
+    margin-top: 100px;
+    text-align: center;
+}
+
+#cartBarcode {
+    padding: 10px;
+    height: 250px;
+    width: 250px;
+    margin-top: 20px;
+
+}

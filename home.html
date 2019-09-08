@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Account - Home</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway|Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript" src="js/home.js"></script>
+
+    <style>
+        #account {
+            margin-top: 68px;
+        }
+
+        #account .column {
+            text-align: center;
+            font-size: 40px;
+        }
+
+        #account-alert {
+            margin-top: 100px;
+        }
+
+        nav li a, nav li a:hover {
+            width: 140px;
+        }
+
+        #qrcode {
+            margin-bottom: 32px;
+        }
+    </style>
+</head>
+
+<body>
+
+<nav>
+    <ul>
+        <li id="li-left">Babeko</li>
+        <li><a href="index.html" target="_self">Home</a></li>
+    </ul>
+</nav>
+
+
+<section id="account">
+    <div class="container">
+        <div id="account-alert" class="alert alert-success" role="alert">
+            Welkom terug Thom Kok!
+        </div>
+
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Account Informatie</h5>
+                <p class="card-text">
+                    Account: Thom Kok<br>
+                    Opgespaarde korting: €16,90<br>
+                    Totaal gescand: 143
+                </p>
+                <div id="columnChart"></div>
+            </div>
+        </div>
+        <br>
+        <div id="qrcode" class="card">
+            <div class="card-body">
+                <h5 class="card-title">Mijn QR code</h5>
+                <a href="cart.html">Ga naar QR code</a>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+</html>

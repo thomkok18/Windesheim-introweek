@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Intro week cart">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway|Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/cart.css">
+    <title>Babeko</title>
+</head>
+<header>
+    <section id="navbar">
+        <nav>
+            <ul>
+                <li id="li-left">Babeko</li>
+                <li><a href="home.html" target="_self">Dashboard</a></li>
+            </ul>
+        </nav>
+    </section>
+</header>
+<body>
+    <div class="wrapper">
+        <div>
+            <!-- Feel free to change this entirely if it's overhauled to dynamic. -->
+            <h2 id="qrTitle">Laat deze QR code scannen bij de kassa</h2>
+            <!-- QR code is generated from another server. ?data contains the QR code's value, such as a string or link. -->
+            <img id='cartBarcode' src="https://api.qrserver.com/v1/create-qr-code/?data=Payment: 150c;&amp;size=250x250" alt=""/>
+        </div>
+    </div>
+</body>
+</html>
